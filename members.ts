@@ -2,56 +2,35 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
-    name: "CatNose",
-    role: "CTO",
-    bio:
-      "デザインが好きなプログラマー。開発者向けの情報共有プラットフォームzenn.devを開発しています。",
-    avatarSrc: "/avatars/catnose.jpg",
+    name: "Jessie",
+	avatarSrc: "/avatars/tech.jpg",
     sources: [
-      "https://zenn.dev/catnose99/feed",
-      "https://medium.com/feed/@catnose99",
+      "https://blog.jessfraz.com/index.xml",
     ],
-    includeUrlRegex: "medium.com|zenn.dev",
-    twitterUsername: "catnose99",
-    githubUsername: "catnose99",
-    websiteUrl: "https://catnose99.com",
+    websiteUrl: "https://blog.jessfraz.com",
   },
   {
-    name: "John Doe",
-    role: "SRE",
-    bio: "Site Reliability Engineer.",
-    avatarSrc: "/avatars/doe.jpg",
-    sources: ["https://note.com/catnose/rss"],
-    excludeUrlRegex: "n3a59e3cdd820",
-    twitterUsername: "catnose99",
+    name: "Kazeburo",
+	avatarSrc: "/avatars/tech.jpg",
+    sources: [
+      "https://kazeburo.hatenablog.com/feed",
+    ],
+    websiteUrl: "https://kazeburo.hatenablog.com",
   },
   {
-    name: "Amanda",
-    role: "Frontend dev",
-    bio: "Frontend developer,",
-    avatarSrc: "/avatars/amanda.jpg",
-    sources: ["https://qiita.com/catnose99/feed.atom"],
-    twitterUsername: "catnose99",
+    name: "538",
+	avatarSrc: "/avatars/news.png",
+    sources: [
+      "https://fivethirtyeight.com/all/feed",
+    ],
+    websiteUrl: "https://fivethirtyeight.com",
   },
   {
-    name: "Takada Junji",
-    role: "Designer",
-    bio: "Designing all of the apps in Foo company.",
-    avatarSrc: "/avatars/junji.jpg",
-    sources: [],
-  },
-  {
-    name: "Ota Naoko",
-    role: "Researcher",
-    bio: "Some texts here",
-    avatarSrc: "/avatars/naoko.jpg",
-    sources: [],
-  },
-  {
-    name: "Alexandria",
-    role: "Tech Lead",
-    bio: "IT professional with 3 years of experience",
-    avatarSrc: "/avatars/alexandria.jpg",
-    sources: [],
+    name: "NYT Politics",
+	avatarSrc: "/avatars/nyt.jpg",
+    sources: [
+	  "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+	],
+    websiteUrl: "https://nytimes.com",
   },
 ];
